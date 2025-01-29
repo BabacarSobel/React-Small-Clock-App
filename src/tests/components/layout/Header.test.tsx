@@ -4,7 +4,7 @@ import {configureStore} from '@reduxjs/toolkit';
 import Header from '@components/layout/Header.tsx';
 import {vi} from 'vitest';
 
-vi.mock('@components', () => ({
+vi.mock('@components/layout', () => ({
     LiveClock: () => <span data-testid="live-clock">Mocked Clock</span>,
 }));
 const mockVar1Reducer = vi.fn().mockImplementation(() => ({value: 'MockedVar'}));
