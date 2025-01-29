@@ -11,7 +11,7 @@ const UpdateVarButton: FC = memo(() => {
     };
 
     return (
-        <Button className="absolute bottom-4" onClick={handleUpdate}>
+        <Button className="m-2" onClick={handleUpdate}>
             Update VAR1
         </Button>
     );
