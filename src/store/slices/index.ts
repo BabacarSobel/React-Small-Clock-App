@@ -1,0 +1,1 @@
+export {default as var1Reducer} from './var1Slice.ts'
